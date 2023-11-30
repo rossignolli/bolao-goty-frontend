@@ -41,7 +41,7 @@ export default function Home() {
             <div className="mb-32">
               <div className="space-y-4">
                 <p className=" text-center max-w-sm">
-                  Adivinhe os ganhadores e vença seus amigos no maior prêmiodos
+                  Adivinhe os ganhadores e vença seus amigos no maior prêmio dos
                   video games.
                 </p>
                 <Button className="bg-[#FFA91B] w-full text-black font-medium text-lg py-6 hover:text-white">
