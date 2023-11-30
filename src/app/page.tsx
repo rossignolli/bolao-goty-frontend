@@ -9,11 +9,18 @@ export default function Home() {
         {/* Background Video */}
         <video
           className="absolute inset-0 object-cover w-full h-full"
-          src="/assets/spider.webm"
           autoPlay
           loop
           muted
-        />
+          preload="auto"
+          playsInline
+        >
+          <source src="assets/spider.webm" type="video/webm" />
+          <source
+            src="https://cdn.thegameawards.com//frontend/bgs/2023-nominies-bg.mp4"
+            type="video/mp4"
+          />
+        </video>
 
         {/* Overlay */}
         <div className="absolute inset-0 bg-black bg-opacity-70 z-10" />
